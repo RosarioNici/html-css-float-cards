@@ -8,7 +8,6 @@
 
 body {
     font-family: 'Fredoka One', cursive;
-    position: relative;
 }
 
 #title {
@@ -25,6 +24,30 @@ body {
 
 .left {
     float: left;
+    background-color: black;
+    margin: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+img {
+    width: 100px;
+    float: left;
+    margin: 0 auto;
+}
+
+span {
+    display: block;
+    padding-top: 10px;
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
 }
 
 /* /general rules */
@@ -42,4 +65,22 @@ div#title {
 
 h1 {
     color: hsl(339deg 78% 55%);
+}
+
+p {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+.clearfix>.left {
+    width: calc(100% / 3 - 20px);
+}
+
+.clearfix {
+    padding: 30px;
+}
+
+.container .clearfix {
+    margin: 0px -10px;
 }
