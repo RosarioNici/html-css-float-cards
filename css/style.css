@@ -7,7 +7,8 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Fredoka One', cursive;
+    position: relative;
 }
 
 #title {
@@ -27,3 +28,18 @@ body {
 }
 
 /* /general rules */
+
+/* specific rules */
+
+div#title {
+
+    background: #ffffff;
+    margin: 0 auto;
+    max-width: calc(100% / 2);
+    text-align: center;
+    padding: 100px;
+}
+
+h1 {
+    color: hsl(339deg 78% 55%);
+}
