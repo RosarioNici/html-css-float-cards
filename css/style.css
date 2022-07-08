@@ -78,15 +78,15 @@ p {
 
 }
 
-.clearfix>.left {
+.cards>.left {
     width: calc(100% / 3 - 20px);
 }
 
-.clearfix {
+.cards {
     padding: 20px;
 }
 
-.container .clearfix {
+.container .cards {
     margin: 0px -10px;
 }
 
@@ -105,4 +105,10 @@ span {
     padding-top: 8px;
     margin-left: 115px;
     font-family: 'Comic Neue', cursive;
+}
+
+.left .content {
+    padding: 25px;
+    line-height: 1.5rem;
+    float: left;
 }
