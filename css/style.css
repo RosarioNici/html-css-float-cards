@@ -26,11 +26,13 @@ body {
     float: left;
     background-color: black;
     margin: 10px;
+    box-shadow: 0px 0px 10px rgb(48, 47, 47);
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
 
 }
 
@@ -43,10 +45,6 @@ img {
 span {
     display: block;
     padding-top: 10px;
-    color: aliceblue;
-}
-
-h2 {
     color: aliceblue;
 }
 
@@ -70,6 +68,7 @@ div#title {
 
 h1 {
     color: hsl(339deg 78% 55%);
+    font-weight: 800;
 }
 
 p {
